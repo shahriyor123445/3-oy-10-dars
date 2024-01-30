@@ -1,0 +1,17 @@
+.header {
+  padding: 73px 0;
+
+  &__container {
+    display: flex;
+    align-items: center;
+  }
+
+  &__logo {
+    margin-right: 80px;
+    transition: all 0.3s ease;
+
+    &:hover {
+      opacity: 80%;
+    }
+  }
+}

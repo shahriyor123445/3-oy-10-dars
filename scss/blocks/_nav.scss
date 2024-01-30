@@ -1,0 +1,28 @@
+.nav__list {
+  display: flex;
+  list-style: none;
+ 
+}
+.nav__link {
+  text-decoration: none;
+  width: 74px;
+  font-family: Space Mono;
+font-size: 15px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: 0px;
+text-align: left;
+color: rgba(147, 156, 170, 1);
+  
+}
+.nav__item {
+  margin-right: 32px;
+}
+.button {
+  text-decoration: none;
+  margin-left: 550px;
+  padding: 14px 39px;
+  background-color: rgba(252, 183, 43, 1);
+  color: rgba(255, 255, 255, 1);
+
+}
