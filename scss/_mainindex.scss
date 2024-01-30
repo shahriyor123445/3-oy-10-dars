@@ -1,5 +1,9 @@
 .section_1 {
     background-color: rgba(47, 59, 89, 1)   ;
+    height: 650px;
+    background-image: url(../imgs/Path\ 2.svg);
+    background-repeat: no-repeat;
+    background-position: left 50%;
 }
 
 .main__text {
@@ -12,4 +16,37 @@ letter-spacing: -2.5px;
 text-align: left;
 color: #fff;
 padding-top: 153px;
+margin-bottom: 40px;
+}
+.main_list {
+    display: flex;
+}
+.main__texts {
+    width: 345px;
+    font-family: Lexend Deca;
+font-size: 15px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0px;
+text-align: left;
+color: #fff;
+margin-left: 95px;
+margin-bottom: 40px;
+}
+.main_button {
+margin-left: 95px;
+width: 102px;
+font-family: Space Mono;
+font-size: 15px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: 0px;
+text-align: center;
+padding: 14px 39px;
+background-color: rgba(252, 183, 43, 1);
+color: #fff;
+}
+.main_img {
+    margin-left: 40px;
+    margin-top: 50px;
 }
