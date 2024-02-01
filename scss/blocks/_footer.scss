@@ -1,0 +1,62 @@
+a {
+    text-decoration: none;
+    color: #939CAA;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+.footer {
+    background-color: #333A44;
+    height: 100px;
+
+    &__container {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.logo {
+    padding-top: 35px;
+}
+
+.pages {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    padding-top: 35px;
+    margin-left: 70px;
+}
+
+.page {
+        font-family: Space Mono;
+    font-weight: 700;
+    line-height: 25px;
+    font-size: 15px;
+    color: #939CAA;
+    transition: all 0.3s ease;
+}
+
+.page:hover {
+    font-family: Space Mono;
+    line-height: 25px;
+    font-size: 15px;
+    color: #FCB72B;
+    font-weight: 700;
+}
+ 
+
+
+
+
+.footer__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 120px;
+    padding: 0;
+    padding-top: 35px;
+    margin-left: auto;
+}

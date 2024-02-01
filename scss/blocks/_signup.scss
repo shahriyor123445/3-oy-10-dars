@@ -1,0 +1,28 @@
+.signup {
+    &__container {
+        display: flex;
+        justify-content: space-between;
+    }
+    background-image: url(../imgs/Mask.png);
+    background-repeat: no-repeat;
+    height: 300px;
+
+    &__title {
+        font-family: Space Mono;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: -2px;
+        font-size: 48px;
+        color: #FFF;
+        width: 415px;
+        padding-top: 100px;
+    }
+
+    &__links {
+        width: 360px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 100px;
+    }
+}
