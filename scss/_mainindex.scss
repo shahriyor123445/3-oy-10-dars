@@ -1,10 +1,10 @@
 .section_1 {
-    background-color: rgba(47, 59, 89, 1)   ;
-    height: 650px;
-    background-image: url(../imgs/Path\ 2.svg);
+    background-image: url(../imgs/Bitmap\ \(1\).png);
     background-repeat: no-repeat;
-    background-position: left 50%;
+    background-color: rgba(47, 59, 89, 1) ;
+    height: 650px;    
 }
+
 
 .main__text {
     width: 400px;
@@ -35,6 +35,7 @@ margin-bottom: 40px;
 }
 .main_button {
 margin-left: 95px;
+text-decoration: none;
 width: 102px;
 font-family: Space Mono;
 font-size: 15px;
@@ -45,12 +46,26 @@ text-align: center;
 padding: 14px 39px;
 background-color: rgba(252, 183, 43, 1);
 color: #fff;
+transition: all 0.2s ease;
+  border: 3px solid #FCB72B;
 }
+
+.main_button:hover {
+    background-color: #fff;
+    color:  rgba(252, 183, 43, 1);
+    border: 3 px solid  rgba(252, 183, 43, 1);
+    border-radius: 2px;
+    }
+
 .main_img {
     margin-left: 40px;
     margin-top: 50px;
 }
-
+.section_2 {
+    background-image: url(../imgs/Path\ 2.png);
+    background-repeat: no-repeat;
+    background-position: left 50px;
+}
 
 .section_list {
     display: flex;
@@ -87,6 +102,7 @@ color: rgba(147, 156, 170, 1);
     background-repeat: no-repeat;
     background-position: right;
     height: 448px;
+    margin-top: 200px;
 }
 .section_3_text {
     width: 305px;
@@ -116,15 +132,26 @@ margin-bottom: 40px;
     text-decoration: none;
     background-color: rgba(252, 183, 43, 1);
     color: #fff;
+    transition: all 0.2s ease;
+  border: 3px solid #FCB72B;
 }
+
+.button_2:hover {
+    padding: 14px 44px;
+    text-decoration: none;
+    background-color: #fff;
+    color:  rgba(252, 183, 43, 1);
+    border: 3 px solid  #000;
+    border-radius: 2px;
+} 
 .section_4 {
 padding-left: 900px;
 background-image: url(../imgs/Group\ 14.png);
 background-repeat: no-repeat;
 background-position: left;
 height: 448px;
-margin-top: 200px;
-margin-bottom: 200px;
+margin-top: 300px;
+margin-bottom: 300px;
 }
 
 .section_5 {
@@ -132,20 +159,31 @@ margin-bottom: 200px;
     background-repeat: no-repeat;
     background-position: right;
     height: 448px;
+    margin-bottom: 200px;
 }
 .section_6 {
     height: 300px;
     background-color: rgba(73, 85, 103, 1);
+    background-image: url(../imgs/Group\ 22.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .pages {
     display: flex;
 }
-.link {
-    margin-top: 112px;
+.as {
     display: flex;
+    text-decoration: none;
+    width: 160px;
     background-color: #fff;
-    margin-right: 18px;
-    padding: 14px 18px;
+    padding: 10px 10px;
+    margin-top: 120px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+}
+.link {
+    display: flex;
+    
 }
 .section_6_text {
     width: 315px;
